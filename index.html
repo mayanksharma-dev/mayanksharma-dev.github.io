@@ -1,0 +1,706 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">ms</div>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <!-- <li><a href="#">Blog</a></li>
+                    <li><a href="#">Photos</a></li> -->
+                    </ul>
+                </nav>
+                <div class="theme-switcher">
+                    <img
+                        id="theme-toggle"
+                        src="https://img.icons8.com/ios-glyphs/30/ffffff/bright-moon.png"
+                        alt="theme-switcher"
+                    />
+                </div>
+            </header>
+
+            <main>
+                <section class="intro">
+                    <div class="intro-text">
+                        <h1>Android Developer | Kotlin Enthusiast</h1>
+                        <!--<h1>Android Developer | Kotlin Enthusiast | Open-Source Contributor</h1>-->
+                        <!--<h1>Android Developer | Kotlin Practitioner</h1>-->
+                        <p>
+                            I'm <span class="name-glow">Mayank Sharma</span>, a
+                            passionate Android Engineer with 3 years of hands-on
+                            learning experience, focused on building clean,
+                            scalable, and community-driven mobile applications
+                            using Kotlin and modern Android tools. I’m also
+                            committed to building open-source software that
+                            benefits developers and makes a meaningful impact on
+                            the broader tech community.
+                        </p>
+                        <!--<p>I'm <span class="name-glow">Mayank Sharma</span>, a passionate Android Engineer with 3 years of hands-on learning experience, focused on building clean, scalable, and community-driven mobile applications using Kotlin and modern Android tools.</p>-->
+                        <!--<p>I'm <span class="name-glow">Mayank Sharma</span>, a passionate Android Engineer with 3 years of hands-on learning experience, focused on building clean, scalable, and community-driven mobile applications using Kotlin and modern Android tools. I’m also committed to building open-source software that empowers developers and creates a meaningful impact on the broader tech community.</p>-->
+                        <!-- <p>An experienced software developer passionate about learning and building open-source software that is beneficial to developers and the world at large.</p> -->
+                        <div class="social-links">
+                            <a href="https://github.com/mayanksharma-dev"
+                                ><img
+                                    src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"
+                                    alt="github"
+                                />
+                                GitHub</a
+                            >
+                            <a href="https://x.com/imsharma_mayank"
+                                ><img
+                                    src="https://img.icons8.com/ios-glyphs/30/ffffff/twitter.png"
+                                    alt="twitter"
+                                />
+                                X</a
+                            >
+                            <a
+                                href="https://www.linkedin.com/in/mayanksharma-dev"
+                                ><img
+                                    src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"
+                                    alt="linkedin"
+                                />
+                                Linkedin</a
+                            >
+                            <!-- <a href="https://www.linkedin.com/in/mayanksharma-dev/?original_referer=https%3A%2F%2Fgithub.com%2F"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" alt="linkedin"/> Linkedin</a> -->
+                            <!-- <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/codepen.png" alt="codepen"/> Codepen</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/dribbble.png" alt="dribbble"/> Dribbble</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png" alt="instagram"/> Instagram</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/steam.png" alt="steam"/> Steam</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/unsplash.png" alt="unsplash"/> Unsplash</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/youtube-play.png" alt="youtube"/> Youtube</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/daily-dev.png" alt="daily-dev"/> Daily.dev</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/product-hunt.png" alt="producthunt"/> Producthunt</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/stackoverflow.png" alt="stackoverflow"/> Stackoverflow</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/codewars.png" alt="codewars"/> Codewars</a>
+                        <a href="#"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/gitlab.png" alt="gitlab"/> Gitlab</a> -->
+                        </div>
+                    </div>
+                    <div class="intro-image">
+                        <canvas id="cube-canvas"></canvas>
+                    </div>
+                </section>
+
+                <section id="about" class="about">
+                    <h2>About</h2>
+                    <p>
+                        I specialize in native Android development with a strong
+                        foundation in Kotlin, Jetpack Compose, and modern
+                        Android architecture. Over the past three years, I have
+                        focused on writing clean, maintainable code and building
+                        real-world applications, including a fully published
+                        Play Store app for the tech community.
+                    </p>
+                    <p>
+                        Beyond Android, I am expanding into backend development
+                        with Spring Boot and exploring Kotlin Multiplatform to
+                        build scalable systems and cross-platform solutions. I
+                        am driven by continuous learning and a desire to create
+                        meaningful software that delivers real impact.
+                    </p>
+                    <!--
+                    <p>I am a native Android developer with a strong command of Kotlin, Jetpack Compose, and XML. My passion for building clean, efficient, and user-friendly mobile applications has been the core of my development journey.</p>
+                <p>Currently, I am expanding my skill set into backend development, learning to build robust services with Spring Boot and Kotlin. I am also actively exploring the exciting world of cross-platform development with Kotlin Multiplatform and Compose Multiplatform, aiming to create seamless experiences across different devices from a single codebase.</p> -->
+                </section>
+
+                <section id="resume" class="resume">
+                    <h2>Resume</h2>
+                    <div class="timeline">
+                        <div class="timeline-block">
+                            <div class="timeline-title">
+                                <img
+                                    src="https://img.icons8.com/ios/24/94a3b8/code.png"
+                                    alt="skills icon"
+                                />
+                                <h3>Technical Skills</h3>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Core</h4>
+                                    <p>
+                                        Native Android Development, Kotlin,
+                                        Jetpack Compose, XML, Java
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Cloud & Backend</h4>
+                                    <p>
+                                        Spring Boot (Kotlin), Firebase, Azure
+                                        (VPS & Web Apps)
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Familiar</h4>
+                                    <p>
+                                        C, C++, Python (FastAPI), Unity (Game
+                                        Dev), TensorFlow Lite (ML on Mobile)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-block">
+                            <div class="timeline-title">
+                                <img
+                                    src="https://img.icons8.com/ios/24/94a3b8/briefcase.png"
+                                    alt="experience icon"
+                                />
+                                <h3>Experience</h3>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Android Developer Intern</h4>
+                                    <div class="timeline-date">
+                                        April 2025 - June 2025
+                                    </div>
+                                    <p>JSI Software Solutions</p>
+                                    <ul>
+                                        <li>
+                                            Migrated legacy Java-based Android
+                                            components to modern Kotlin,
+                                            enhancing code stability and
+                                            developer experience.
+                                        </li>
+                                        <li>
+                                            Integrated TensorFlow Lite (TFLite)
+                                            to implement a real-time face
+                                            detection feature within the Android
+                                            application.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-block">
+                            <div class="timeline-title">
+                                <img
+                                    src="https://img.icons8.com/ios/24/94a3b8/education.png"
+                                    alt="education icon"
+                                />
+                                <h3>Education</h3>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Master in Computer Application</h4>
+                                    <div class="timeline-date">2023 — 2025</div>
+                                    <p>Graphic Era Deemed to be University</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>Bachelor in Computer Application</h4>
+                                    <div class="timeline-date">2020 — 2023</div>
+                                    <p>Teerthanker Mahaveer University</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>High School & Intermediate</h4>
+                                    <div class="timeline-date">2018 — 2020</div>
+                                    <p>Bonne Anne Public School (CBSE Board)</p>
+                                    <ul>
+                                        <li>High School (10th Grade) — 2018</li>
+                                        <li>
+                                            Intermediate (12th Grade) — 2020
+                                        </li>
+                                    </ul>
+                                    <!-- <h4>Intermediate & High School</h4>
+                                <div class="timeline-date">2017 — 2019</div>
+                                <p>ABC Public School (CBSE)</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="projects" class="projects">
+                    <h2>Projects</h2>
+                    <div class="project-timeline">
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/fluency/48/android-os.png"
+                                    alt="Package Name Scripter"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Package Name Scripter App</h3>
+                                <p>
+                                    A powerful yet easy-to-use tool to create
+                                    ADB scripts and manage apps via Shizuku or
+                                    ADB without root.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Create/export ADB scripts for various
+                                        commands and manage apps with
+                                        system-level access.
+                                    </li>
+                                    <li>
+                                        Provides detailed insights into apps,
+                                        including package name, state, and
+                                        installer source.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://play.google.com/store/apps/details?id=in.ms.packagenamesscripter"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/color/48/google-play.png"
+                                            alt="Google Play"
+                                        />
+                                        <span>Play Store</span>
+                                    </a>
+                                    <!-- <button class="project-btn demo-btn" data-video-src="https://www.w3schools.com/html/mov_bbb.mp4">Watch Demo</button> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/fluency/48/android-os.png"
+                                    alt="Women Safety App"
+                                />
+                                <!-- <img src="https://img.icons8.com/fluency/48/github.png" alt="Women Safety App"/> -->
+                            </div>
+                            <div class="project-content">
+                                <h3>Women Safety & Tracking App</h3>
+                                <p>
+                                    A simple yet modern mobile app designed for
+                                    women’s tracking & safety in emergencies.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Emergency service with real-time
+                                        tracking (foreground service) and
+                                        location history.
+                                    </li>
+                                    <li>
+                                        Locate nearest police stations, with SOS
+                                        alerts and widget support.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/MayankSharma-dev/Women-Safety-Tracking-App"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png"
+                                            alt="GitHub"
+                                        />
+                                        <span>Source Code</span>
+                                    </a>
+                                    <button
+                                        class="project-btn demo-btn"
+                                        data-video-src="video/womensafety.mp4"
+                                    >
+                                        Watch Demo
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/color/48/spring-logo.png"
+                                    alt="Chat Backend"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Real-Time Chat Backend</h3>
+                                <p>
+                                    Modular monolith backend for a real-time
+                                    chat app with Firebase notifications and JWT
+                                    authentication.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Implemented WebSockets, RabbitMQ, Redis
+                                        caching, and rate limiting for scalable,
+                                        real-time messaging.
+                                    </li>
+                                    <li>
+                                        Deployed on Azure VPS, integrated
+                                        Supabase and Mailgun for a complete
+                                        end-to-end solution.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/mayanksharma-dev/chirp-api-backend"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png"
+                                            alt="GitHub"
+                                        />
+                                        <span>Source Code</span>
+                                    </a>
+                                    <!-- <button class="project-btn demo-btn" data-video-src="https://www.w3schools.com/html/mov_bbb.mp4">Watch Demo</button> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/fluency/48/github.png"
+                                    alt="Open-Source Android App"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>
+                                    Open-Source Android App
+                                    <span
+                                        style="
+                                            font-size: 0.8rem;
+                                            color: #94a3b8;
+                                        "
+                                        >[Contribution]</span
+                                    >
+                                </h3>
+                                <p>
+                                    Contributed to a widely-used Android app
+                                    with 100k+ downloads and 4k+ stars on
+                                    GitHub, improving stability and code
+                                    quality.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Fixed a critical crash caused by empty
+                                        or malformed JSON file when the app
+                                        launched offline.
+                                    </li>
+                                    <li>
+                                        Resolved multiple UI bugs and improved
+                                        dialog state management for smooth user
+                                        experience.
+                                    </li>
+                                    <li>
+                                        Refactored SettingsStore & ViewModel
+                                        usage to prevent memory leaks and
+                                        enforce best practices.
+                                    </li>
+                                </ul>
+                                <!-- Optional: GitHub link -->
+
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/samolego/Canta"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png"
+                                            alt="GitHub"
+                                        />
+                                        <span>Source Code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/fluency/48/android-os.png"
+                                    alt="Memesterr V2 App"
+                                />
+                                <!-- <img src="https://img.icons8.com/color/48/reddit.png" alt="Memesterr V2"/> -->
+                            </div>
+                            <div class="project-content">
+                                <h3>Memesterr V2 App (Reddit Client)</h3>
+                                <p>
+                                    A Reddit client built with Jetpack Compose
+                                    to easily enjoy memes by scraping the Reddit
+                                    API.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Google OneTap SignIn with Firebase Auth
+                                        and Android Key-Store encryption.
+                                    </li>
+                                    <li>
+                                        Efficient online/offline support using
+                                        Firestore, Room DB, and a network-bound
+                                        resource pattern.
+                                    </li>
+                                    <li>
+                                        Features auto-playing videos, endless
+                                        scrolling, search, bookmarks, and
+                                        sharing.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://memesterr-v2.azurewebsites.net"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/domain.png"
+                                            alt="Website"
+                                        />
+                                        <span>Live Site</span>
+                                    </a>
+                                    <button
+                                        class="project-btn demo-btn"
+                                        data-video-src="video/memesterr.mp4"
+                                    >
+                                        Watch Demo
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/color/48/unity.png"
+                                    alt="Super Mario Clone"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Super Mari0 Clone Game</h3>
+                                <p>
+                                    A classic Super Mario clone developed using
+                                    Unity and C# in Visual Studio Code.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Implemented core gameplay mechanics
+                                        including character movement, physics,
+                                        and enemy AI.
+                                    </li>
+                                    <li>
+                                        Designed and built multiple levels with
+                                        classic Mario power-ups and obstacles.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <!-- <a href="#" target="_blank" class="project-btn">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png" alt="GitHub"/>
+                                    <span>Source Code</span>
+                                </a> -->
+                                    <button
+                                        class="project-btn demo-btn"
+                                        data-video-src="video/game.mp4"
+                                    >
+                                        Watch Demo
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/fluency/48/android-os.png"
+                                    alt="Crypto Coin Tracker"
+                                />
+                                <!-- <img src="https://img.icons8.com/color/48/python.png" alt="EcoJournal"/> -->
+                            </div>
+                            <div class="project-content">
+                                <h3>Crypto Coin Tracker</h3>
+                                <p>
+                                    A modern Android app for real-time
+                                    cryptocurrency tracking built using Jetpack
+                                    Compose, Clean Architecture, and MVI.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Consumed REST APIs to display live
+                                        market data with unidirectional state
+                                        management.
+                                    </li>
+                                    <li>
+                                        Designed responsive Compose UI with
+                                        detailed coin metrics and interactive
+                                        price charts.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/mayanksharma-dev/CryptoTracker"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png"
+                                            alt="GitHub"
+                                        />
+                                        <span>Source Code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/fluency/48/android-os.png"
+                                    alt="EcoJournal"
+                                />
+                                <!-- <img src="https://img.icons8.com/color/48/python.png" alt="EcoJournal"/> -->
+                            </div>
+                            <div class="project-content">
+                                <h3>EcoJournal</h3>
+                                <p>
+                                    A modern voice-based journaling Android app
+                                    built with Jetpack Compose and Clean
+                                    Architecture.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Implemented audio recording
+                                        functionality using Android Media APIs
+                                        with proper lifecycle handling.
+                                    </li>
+                                    <li>
+                                        Designed a clean, state-driven UI using
+                                        Material 3 and modular architecture
+                                        (data, domain, presentation layers).
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/mayanksharma-dev/Echojournal"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png"
+                                            alt="GitHub"
+                                        />
+                                        <span>Source Code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/color/48/python.png"
+                                    alt="Reddit Meme API"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Reddit Meme API</h3>
+                                <p>
+                                    A RESTful API built with FastAPI and
+                                    AsyncPRAW to serve memes from Reddit.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Delivers a random selection of 50 memes
+                                        from a predefined list of subreddits.
+                                    </li>
+                                    <li>
+                                        Provides an endpoint to fetch memes from
+                                        any specific public subreddit in JSON
+                                        format.
+                                    </li>
+                                </ul>
+                                <div class="project-links">
+                                    <a
+                                        href="https://github.com/mayanksharma-dev/Reddit-Meme-API"
+                                        target="_blank"
+                                        class="project-btn"
+                                    >
+                                        <img
+                                            src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png"
+                                            alt="GitHub"
+                                        />
+                                        <span>Source Code</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-icon">
+                                <img
+                                    src="https://img.icons8.com/color/48/python.png"
+                                    alt="Twitter Meme API"
+                                />
+                            </div>
+                            <div class="project-content">
+                                <h3>Twitter Meme API</h3>
+                                <p>
+                                    A RESTful API built with Flask to serve
+                                    memes from Twitter, utilizing the Twitter
+                                    API.
+                                </p>
+                                <ul>
+                                    <li>
+                                        Serves a random mix of 50 memes from a
+                                        curated list of Twitter accounts.
+                                    </li>
+                                    <li>
+                                        Allows fetching memes from a specific
+                                        public Twitter account via a dedicated
+                                        endpoint.
+                                    </li>
+                                </ul>
+                                <!-- <div class="project-links">
+                                <a href="#" target="_blank" class="project-btn">
+                                    <img src="https://img.icons8.com/ios-glyphs/30/f8fafc/github.png" alt="GitHub"/>
+                                    <span>Source Code</span>
+                                </a>
+                            </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+            <footer>
+                <div class="built-with">
+                    <span>Built with:</span>
+                    <a href="#">HTML</a>
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                </div>
+                <div class="copyright">
+                    Copyright © Mayank Sharma 2026 All Rights Reserved
+                </div>
+            </footer>
+
+            <div id="video-modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-btn">&times;</span>
+                    <video id="modal-video" width="100%" controls>
+                        <source src="" type="video/mp4" />
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="main.js"></script>
+        <script src="theme.js"></script>
+        <script src="animation.js"></script>
+        <script src="scroll-animation.js"></script>
+        <script src="modal.js"></script>
+    </body>
+</html>
